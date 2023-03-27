@@ -1,0 +1,15 @@
+import numpy as np
+def write_num(start,end,filename):
+    I=np.arange(start,end+2,2)
+    np.savetxt(filename,I)
+#write_num(9,103,'U65C4W.txt')
+#write_num(53,167,'U65C12W.txt')
+#write_num(54,172,'U65C30W.txt')
+#write_num(46,150,'U55C4W.txt')
+#write_num(47,165,'U55C12W.txt')
+#write_num(33,161,'U75C40W.txt')
+#write_num(23,133,'U65C40W.txt')
+#write_num(34,184,'U55C40W.txt')
+#write_num(33,141,'U45C4W.txt')
+#write_num(13,147,'U45C12W.txt')
+write_num(61,211,'U45C40W.txt')
